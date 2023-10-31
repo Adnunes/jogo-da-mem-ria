@@ -67,16 +67,16 @@ h2 {
     
     font-size: 3em;
     transform: rotateY(0deg);
-    transition: 0.25s;
+    transition: 0.55s;
 }
 
 .item::after {
     content: "";
     position: absolute;
     inset: 0;
-    opacity: 30%;
+    
     background: #404040;
-    transition: 0.25s;
+    transition: 0.85s;
     transform: rotateY(0deg);
     backface-visibility: hidden;
 }
